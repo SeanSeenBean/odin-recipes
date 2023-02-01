@@ -1,0 +1,45 @@
+body {
+    background-color: #B1D4E0; 
+    
+}
+ a, ul {
+    text-decoration: none;
+    color: #0C2D48;
+    padding: 15px;
+ }
+
+ a:hover {
+    text-decoration: underline;
+
+ }
+img {
+    width: 250px;
+    border-style: groove;
+    border-color:#2E8BC0;
+    border-width: 5px;
+    border-radius: 5%
+}
+img:hover {
+    border-width: 10px;
+}
+.header {
+    font-size: 200%;
+    font-weight: 600;
+    color:#0C2D48;
+    background-color: #2E8BC0;
+    border-width: 10px;
+    border-radius: 25px;
+    border-color: #0C2D48;
+    border-style:double;
+}
+
+.recipes {
+    font-size: 20px;   
+
+}
+
+.header,
+.recipes {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
